@@ -23,17 +23,17 @@ All input images are compared against the Caltech101 [1] dataset, which contains
 
 To ensure smooth execution, your dataset folder in working directory should look like this:
 
-./caltech101
+	/caltech101
 
-	/101_ObjectCategories
+		/101_ObjectCategories
    
-		/accordion
+			/accordion
 
-		/airplanes
+			/airplanes
 
-		/anchor
+			/anchor
 
-		...
+			...
 	
 
 ### How to run locally
