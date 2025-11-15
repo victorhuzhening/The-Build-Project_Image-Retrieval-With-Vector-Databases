@@ -21,19 +21,19 @@ Suppors precomputing FAISS indexes for processed image embeddings to enable fast
 
 All input images are compared against the Caltech101 [1] dataset, which contains thousands of images across 101 object categories organized in image folder format, where the folder name is the label for supervised learning. This dataset can be accessed via PyTorch API or downloaded manually from Kaggle: https://www.kaggle.com/datasets/imbikramsaha/caltech-101.
 
-To ensure smooth execution, your dataset folder should look like this:
+To ensure smooth execution, your dataset folder in working directory should look like this:
 
-caltech101
+./caltech101
 
- - 101_ObjectCategories
+	/101_ObjectCategories
    
-	-accordion
+		/accordion
 
-	-airplanes
+		/airplanes
 
-	-anchor
+		/anchor
 
-	...
+		...
 	
 
 ### How to run locally
