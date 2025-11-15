@@ -24,10 +24,15 @@ All input images are compared against the Caltech101 [1] dataset, which contains
 To ensure smooth execution, your dataset folder should look like this:
 
 caltech101
+
  - 101_ObjectCategories
+   
 	-accordion
+
 	-airplanes
+
 	-anchor
+
 	...
 	
 
@@ -35,21 +40,21 @@ caltech101
 
 Train the model. You will need to manually replace the dataset directory in the script:
 
-\begin{lstlisting}[language=bash]
+```
 python train_model.py
-\end{lstlisting}
+```
 
 Run FAISS index building script:
 
-\begin{lstlisting[language=bash]
+```
 ./precompute.sh
-\end{lstlisting}
+```
 
 Build and deploy webapp:
 
-\begin{lstlisting[language=bash]
+```
 python app.py
-\end{lstlisting}
+```
 
 
 ### References
